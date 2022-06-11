@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap%27');
+
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+
+}
+/* Paleta de colores */
+
+:root {
+    --colorPrincipal: #5b9aa0;
+    --colorSecundario: #d6d4e0;
+    --colorTerciario: #b8a9c9;
+    --colorCuaternario:#622569
+    ;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+/*     background-color: var(--colorPrincipal); */
+    background-image: linear-gradient(#2a193a,  #e6cbff);
+}
+
+h1 {
+    color: white;
+    font-size: 80px; 
+    text-align: center;
+    margin: 7px;
+    font-family: 'Contrail One', cursive;
+    letter-spacing: 25px;
+
+}
+
+h1 {
+    animation: h1Color ease-in 3s infinite;
+}
+
+@keyframes h1Color {
+    0% {
+        color: pink;
+    }
+    50% {
+      color: blueviolet;
+    }
+
+    100% {
+       color: white;
+    }
+}
+
