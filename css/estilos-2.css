@@ -61,10 +61,7 @@ header {
     animation-name: slidein2;
     background-color: transparent;
     float: inline-start;
-       /*  display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column; */   
+    
       }
       
       @keyframes slidein2 {
@@ -107,7 +104,7 @@ article {
       margin-left: 0%;
       width: 100%;
     }
-  } 
+  }  
 
 h2 {
     background-color: var(--colorTerciario);
@@ -184,6 +181,7 @@ footer {
     background-color: var(--colorTerciario);
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 
 .comentarios {
