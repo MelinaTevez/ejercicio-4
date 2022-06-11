@@ -1,5 +1,5 @@
 
-let nombre 
+/* let nombre 
 nombre= prompt ('Ingrese su nombre')
 console.log (nombre)
 
@@ -12,4 +12,4 @@ else if (genero == "mujer") {
     console.log ('Bienvenida')
 } else {
     console.log ('Bienvenidx')
-}
+} */
