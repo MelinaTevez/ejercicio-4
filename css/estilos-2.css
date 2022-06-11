@@ -141,11 +141,11 @@ article {
     
 }
 
-p , h3 {
+p , h3 , h4 {
     color: var(--colorSecundario);
 }
 
-h3  {
+h3 , h4 {
     font-size: 30px;
     display: flex;
     justify-content: flex-end;
@@ -184,4 +184,19 @@ footer {
     background-color: var(--colorTerciario);
     color: white;
     font-size: 20px;
+}
+
+.comentarios {
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+ 
+    
+}
+
+.a-inicio {
+    background-color: var(--colorCuaternario);
+    box-shadow: 10px 5px 5px rgb(34, 33, 33);
 }
