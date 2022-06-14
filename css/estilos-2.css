@@ -198,7 +198,3 @@ footer {
     background-color: var(--colorCuaternario);
     box-shadow: 10px 5px 5px rgb(34, 33, 33);
 }
-
-p.comentarios {
-    background-color:   var(--colorPrimario);
-}
